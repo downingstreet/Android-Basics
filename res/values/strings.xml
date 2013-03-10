@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, main!</string>
+    <string name="app_name">The Basics</string>
+    <string name="splashDesc">This is the splash screen !</string>
+	<string name="button1">tutorial 1</string>
+	<string name="button2">tutorial 2</string>
+	<string name="testing">This is a test !</string>
+</resources>

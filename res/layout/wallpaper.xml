@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ImageView android:src="@drawable/wall1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        
+        android:id="@+id/IVdisplay"/>
+    
+    <Button android:id="@+id/BsetWallpaper"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Image to background" />
+    
+    
+    <HorizontalScrollView android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+   <LinearLayout android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+   
+   <ImageView android:src="@drawable/wall1"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:padding="15dp"
+        android:id="@+id/IVimage1"/>
+   <ImageView android:src="@drawable/wall2"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:padding="15dp"
+        android:id="@+id/IVimage2"/>
+   <ImageView android:src="@drawable/wall3"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:padding="15dp"
+        android:id="@+id/IVimage3"/>
+   <ImageView android:src="@drawable/wall4"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:padding="15dp"
+        android:id="@+id/IVimage4"/>
+   <ImageView android:src="@drawable/wall5"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:padding="15dp"
+        android:id="@+id/IVimage5"/>
+   <ImageView android:src="@drawable/wall6"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:padding="15dp"
+        android:id="@+id/IVimage6"/>
+    </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>
